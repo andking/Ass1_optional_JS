@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div>Your salary:
+<input type="text" id="salary" >
+    </div>
+    <div>Your First deductions (42,705 CAD to 85,405 CAD):
+<p id="deductions"></p>
+    </div>
+    <div> Deductions If More Than (85,405 CAD):
+      <p id="addDeductions"></p>
+    </div>
+    <div> Deductions#2 If More Than (103,915 CAD):
+      <p id="addDeductions2"></p>
+    </div>
+    <div>Your net salary:
+<p id="netSalary"></p>
+<p id="deductionsLess"></p>
+    </div>
+<button type="button" name="taxBtn" onclick="CalcDeductions()">Calculate Taxes</button>
+<button type="button" name="RefBtn" onclick="ReloadPage()">Refresh</button>
+  </body>
+  <script src="./script.js" charset="utf-8"></script>
+</html>
